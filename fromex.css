@@ -1,0 +1,101 @@
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 500px;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: white;
+  color: black;
+  min-width: 50px;
+  text-align: center;
+  border: 1px solid red;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid powderblue;
+}
+
+/* Set a style for the submit button */
+
+
+.btn:hover {
+  opacity: 1;
+}
+h4{
+    color: yellowgreen;
+    font-size: 29px;
+    box-shadow: 0px 0px 45px;
+    width: 500px;
+    text-shadow: 7px 8px 10px ;
+    padding: 7px;
+    text-align: center;
+    font-weight: 800;
+}
+span{
+    border: 2px solid;
+    cursor: pointer;
+    background: burlywood;
+    padding: 5px;
+    box-shadow: 0px 0px 19px;
+    margin: 29px;
+    
+}
+h2{
+    margin-bottom: 42px;
+    text-shadow: red 0 -2px;
+    padding: 6px;
+    font-size: 33px;
+    margin-left: 30px;
+}
+select {
+    width: 10%;
+    text-align: center;
+    padding: 6px;
+    margin-left: 34px;
+}
+
+p{
+    font-size: 39px;
+    padding: 17px;
+    box-shadow: 0px 0px 9px;
+    font-weight: 800;
+    background-color: burlywood;
+    width: 300px;
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc, 0 1px 0 #ccc,
+    0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 #ccc,
+    0 7px 0 #ccc, 0 8px 0 #ccc,
+    0 9px 0 #ccc, 0 10px 0 #ccc,
+    0 11px 0 #ccc, 0 12px 0 #ccc,
+    0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.tacbox {
+    display:block;
+    padding: 1em;
+    margin: 2em;
+    border: 3px solid RED;
+    background-color: #eee;
+    max-width: 440px;
+    box-shadow: 0px 0px 34px;
+  }
+  header{
+    border: 2px solid;
+    width: 504px;
+  }
+  
+  
+  

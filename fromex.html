@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <link rel="stylesheet" href="fromex.css" />
+   <title>Penguin</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+ </head>
+
+ <body>
+    <header>
+<h4 data-aos="fade-down-left">Account</h4>
+
+    <form action="">
+        
+        <div class="input-container" data-aos="fade-down-left">
+          <i class="fa fa-user icon"></i>
+          <input class="input-field" type="text" placeholder="Username" name="usrnm">
+        </div>
+      
+        <div class="input-container" data-aos="fade-down-left">
+          <i class="fa fa-envelope icon"></i>
+          <input class="input-field" type="text" placeholder="Email" name="email">
+        </div>
+      
+        <div class="input-container" data-aos="fade-down-left">
+          <i class="fa fa-key icon"></i>
+          <input class="input-field" type="password" placeholder="Password" name="psw">
+        </div>
+      
+        
+        </div>
+        <div class="row" data-aos="flip-left">
+        <p>Date of Birth </p>
+    
+        <select name="Month" id="">
+            <option value="">Month</option>
+            <option value="">January</option>
+            <option value="">February</option>
+            <option value="">March</option>
+        </select>
+        <select name="Month" id="">
+            <option value="">MM</option>
+            <option value="">01</option>
+            <option value="">02</option>
+            <option value="">03</option>
+            <option value="">04</option>
+            <option value="">05</option>
+            <option value="">06</option>
+            <option value="">07</option>
+        </select>
+        <select name="Month" id="">
+            <option value="">YYY</option>
+            <option value="">1998</option>
+            <option value="">1999</option>
+            
+        </select>
+        <h2>Gender</h2> 
+        <div class="input-container">
+            <div class="mp"><span><input type="radio" name="Male" > Male</span> <span><input type="radio" name="Male" > Female</span></div>
+          </div>
+        </div>
+      </form>
+      <div class="tacbox" data-aos="flip-up">
+        <input id="checkbox" type="checkbox" />
+        <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label><br>
+        <button>Submit</button>
+      </div>
+      
+    </header>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+ </body>
+</html>
