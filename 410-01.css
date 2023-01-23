@@ -1,0 +1,18 @@
+#result{
+  border: 2px solid black;
+  
+  }
+  img{
+      height: 30%;
+      width: 20%;
+      border-radius: 50%;
+  }
+  body{
+      background-color: black;
+      box-shadow: 12px 12px 12px red    ;
+  }
+  h1{
+    background-color: grey;
+    box-shadow: 2px 2px 22px red;
+
+  }
